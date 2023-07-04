@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "ETH_backend": {
+      "main": "src/ETH_backend/main.mo",
+      "type": "motoko"
+    }
+  }
+}
