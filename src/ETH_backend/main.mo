@@ -45,8 +45,8 @@ shared actor class ETHPrice() = this {
       context = Blob.fromArray([]);
     };
     let url = "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd";
-
-
+// https://seiriosdashboardapi.managedcoder.com/api/report/sustainability
+// https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd
     let request : Types.CanisterHttpRequestArgs = {
       url = url;
       max_response_bytes = ?MAX_RESPONSE_BYTES;
